@@ -26,12 +26,14 @@ import os, pwd
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 # Print the current process ID
 # YOUR CODE HERE
-#print("current process id: ", os.getgid())
+print("current process id: ", os.getgid())
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-#print("current working directory: ", os.getcwd())
+print("current working directory: ", os.getcwd())
 
 # Print out your machine's login name
 # YOUR CODE HERE
-#print(pwd.getpwuid(os.getuid())[0])
+print(pwd.getpwuid(os.getuid())[0])
+
+#print(os.getlogin())
