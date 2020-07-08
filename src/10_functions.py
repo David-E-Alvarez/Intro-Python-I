@@ -12,8 +12,11 @@ num = input("Enter a number: ")
 num = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
-
 # YOUR CODE HERE
+if num % 2 == 0:
+    print("Even!")
+else:
+    print("Odd")
 
 #function calls
 print(is_even(num))#have to print to show whether "true" or "false" is returned
