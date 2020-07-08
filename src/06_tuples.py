@@ -1,3 +1,4 @@
+#tuples group data. They are immutable and can't be changed once in memory. a
 """
 Python tuples are sort of like lists, except they're immutable and
 are usually used to hold heterogenous data, as opposed to lists
